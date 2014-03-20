@@ -1,7 +1,7 @@
 {
   "name": "grunt-shrinkwrap",
   "description": "Grunt task for shrinkwrapping your project's dependencies via npm shrinkwrap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/mstuart/grunt-shrinkwrap",
   "author": {
     "name": "mstuart",
@@ -38,6 +38,8 @@
     "grunt": "~0.4.2"
   },
   "keywords": [
-    "gruntplugin"
+    "shrinkwrap",
+    "npm-shrinkwrap",
+    "shrinkwrap.json"
   ]
 }
