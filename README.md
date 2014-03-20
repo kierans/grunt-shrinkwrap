@@ -26,4 +26,4 @@ You can run `grunt shrinkwrap` standalone
 Or add it to an existing task: `grunt.registerTask('test', ['clean', 'shrinkwrap']);`
 
 ## Release History
-0.2.0 - First release.
+0.1.1 - First release.
