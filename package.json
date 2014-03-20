@@ -1,0 +1,25 @@
+{
+  "name": "grunt-shrinkwrap",
+  "version": "0.0.1",
+  "description": "Grunt task for shrinkwrapping your project's dependencies via npm shrinkwrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mstuart/grunt-shrinkwrap.git"
+  },
+  "keywords": [
+    "shrinkwrap",
+    "npm",
+    "npm-shrinkwrap",
+    "dependencies"
+  ],
+  "author": "mstuart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mstuart/grunt-shrinkwrap/issues"
+  },
+  "homepage": "https://github.com/mstuart/grunt-shrinkwrap"
+}
