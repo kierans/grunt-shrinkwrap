@@ -42,6 +42,7 @@
   "keywords": [
     "shrinkwrap",
     "npm-shrinkwrap",
-    "shrinkwrap.json"
+    "shrinkwrap.json",
+    "gruntplugin"
   ]
 }
