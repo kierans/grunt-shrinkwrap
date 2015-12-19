@@ -13,7 +13,7 @@
     "url": "https://github.com/mstuart/grunt-shrinkwrap.git"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "http://npm.paypal.com/"
   },
   "bugs": {
     "url": "https://github.com/mstuart/grunt-shrinkwrap/issues"
