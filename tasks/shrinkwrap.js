@@ -19,7 +19,10 @@ function exec(grunt, cmd, errorMsg) {
 }
 
 function shrinkwrap(grunt) {
-  exec(grunt, 'npm shrinkwrap --production', 'shrinkwrapping failed.');
+  var config = grunt.config('shrinkwrap'),
+      env = config.dev ? "--dev" : "--production";
+
+  exec(grunt, 'npm shrinkwrap ' + env, 'shrinkwrapping failed.');
 }
 
 function dedupe(grunt) {
