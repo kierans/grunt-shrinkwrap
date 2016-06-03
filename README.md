@@ -25,5 +25,14 @@ In your project's Gruntfile, the `shrinkwrap` task is available to use.
 You can run `grunt shrinkwrap` standalone
 Or add it to an existing task: `grunt.registerTask('test', ['clean', 'shrinkwrap']);`
 
+The `shrinkwrap` task has the following configuration options.
+
+```js
+shrinkwrap: {
+  dev: true, // whether the shrinkwrap dev dependencies. Defaults to false.
+  dedupe: true // whether to run dedupe before shrinkwrapping.  Defaults to false.
+}
+```
+
 ## Release History
 0.1.1 - First release.
