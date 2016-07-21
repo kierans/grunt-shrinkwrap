@@ -29,9 +29,17 @@ function dedupe(grunt) {
   exec(grunt, 'npm dedupe', 'dedupe failed.');
 }
 
+function prune(grunt) {
+  exec(grunt, 'npm prune', 'prune failed');
+}
+
 module.exports = function(grunt) {
   grunt.registerTask('shrinkwrap', 'Grunt task for shrinkwrapping your projects dependencies via npm shrinkwrap', function() {
     var config = grunt.config('shrinkwrap');
+
+    if (config.prune) {
+      prune(grunt);
+    }
 
     if (config.dedupe) {
       dedupe(grunt);

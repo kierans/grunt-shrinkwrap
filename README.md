@@ -31,6 +31,7 @@ The `shrinkwrap` task has the following configuration options.
 shrinkwrap: {
   dev: true, // whether the shrinkwrap dev dependencies. Defaults to false.
   dedupe: true // whether to run dedupe before shrinkwrapping.  Defaults to false.
+  prune: true // whether to run prune before deduping. Defaults to false.
 }
 ```
 
